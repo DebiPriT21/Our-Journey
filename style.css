@@ -3,19 +3,17 @@
   padding: 0%;
   text-align: center;
   background-color: rgb(255, 192, 203);
-  /* font-family: 'Baloo Bhai 2', cursive;   */
 }
 
 .nav {
-    /* border: 5px solid rgb(0, 0, 0); */
-    /* background-color: rgb(255, 0, 43); */
-    width: 99%;
-    display: inline-block;
+  /* border: 5px solid rgb(0, 0, 0); */
+  width: 99%;
+  display: inline-block;
 }
 
 .nav p {
-    background-color: rgb(129, 57, 69) !important;
-    font-family: 'Itim', cursive;
+  background-color: rgb(129, 57, 69) !important;
+  font-family: "Itim", cursive;
   font-size: 300%;
   color: rgb(255, 209, 251);
 }
@@ -31,57 +29,62 @@
 #c2txt {
   font-size: 30px;
   margin: 5%;
-  font-family: 'Lobster', cursive;
-  text-decoration:underline;
+  font-family: "Lobster", cursive;
+  text-decoration: underline;
 }
 
 .right1 {
   /* border: 3px dotted white; */
-  /* position: relative !important; */
-  /* margin: auto; */
   width: 100%;
   display: inline-block;
 }
 
 .heart {
-  width: 10%;
-  /* margin: 0px auto; */
+  width: 18%;
   display: inline-block;
   position: absolute;
   /* border: 2px solid blue; */
-  left: 39%;
+  left: 34%;
 }
 
 .arrow {
   display: block;
-  font-size: 300%;
+  font-size: 500%;
   position: relative;
   background-color: #ffffff00;
-  top: 20px;
-  margin-top:5px ;
-  right: 6%;
+  top: 27px;
+  margin-bottom: 10%;
+  right: 7%;
   width: 9%;
   /* margin: auto; */
 }
+.arrow:last-child{
+    margin-bottom: 0;
+}
 .moments {
   display: inline-block;
-  font-size: 120%;
+  font-size: 160%;
   position: absolute;
+  padding-top: 3%;
   left: 49%;
-    /* border: 2px solid green; */
-  font-family: 'Baloo Bhai 2', cursive;
+  /* border: 2px solid green; */
+  font-family: "Baloo Bhai 2", cursive;
 }
+/* .moments:last-child{
+    padding: 0 0 4% 2% ;
+} */
 .top {
-    font-size: 10px;
+  font-size: 10px;
   /* border: 3px solid white; */
   position: relative;
   margin-bottom: 14%;
 }
-.top:last-child{
-    margin-bottom: 0;
+.top:last-child {
+  margin-bottom: 10%;
+  font-size: larger;
+  font-family: "Baloo Bhai 2", cursive;
 }
-.date{ 
-    
-    color: rgb(179, 11, 11);
+.date {
+  color: rgb(179, 11, 11);
 }
 
